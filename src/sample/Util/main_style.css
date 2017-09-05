@@ -1,0 +1,156 @@
+#borderPane{
+
+    -fx-background-image: url("./image/borderBackground.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-color: ghostwhite;
+    -fx-background-size: cover;
+    -fx-border-radius: 25 25 25 25;
+    -fx-background-radius: 25 25 25 25;
+}
+
+#File{
+    -fx-background-image: url("./image/File.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#File: hover{
+    -fx-background-image: url("./image/FileLuotQua.png");
+}
+#playPauseButton{
+    -fx-background-image: url("./image/play.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+
+}
+#replayButton{
+    -fx-background-image: url("./image/replayNotMark.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#btnChooseDirectory: hover{
+    -fx-background-color: -fx-box-border,rgb(231,231,231);
+}
+#nextButton{
+    -fx-background-color: transparent;
+}
+#previousButton{
+    -fx-background-image: url("./image/previousButton.png");
+    -fx-background-size: 24 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#previousButton: hover{
+    -fx-background-image: url("./image/previousButtonLuotQua.png");
+}
+#imageView{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-image: url("./image/EnriqueIglesias.png");
+}
+.text-field {
+    -fx-text-box-border: transparent;
+    -fx-background-color: transparent;
+}
+.text-input {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+.text-input:focused {
+    -fx-prompt-text-fill: transparent;
+}
+
+.backSliderTrack {
+    -fx-background-color: white;
+    -fx-opacity: 0.5;
+}
+.slider .thumb {
+    -fx-background-color: #6C7A89;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 2.5;
+    -fx-border-color: transparent;
+    -fx-padding: 6;
+    -fx-shape: "
+        M 100, 100
+        m -75, 0
+        a 75,75 0 1,0 150,0
+        a 75,75 0 1,0 -150,0
+        ";
+}
+.slider .thumb:hover {
+    -fx-border-color: rgb(153, 181, 230);
+}
+.slider .track {
+    -fx-background-color: #6C7A89;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 2;
+}
+.volumeSlider .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 3;
+    -fx-border-color: #BFBFBF;
+    -fx-padding: 7;
+    -fx-shape: "
+        M 100, 100
+        m -75, 0
+        a 75,75 0 1,0 150,0
+        a 75,75 0 1,0 -150,0
+        ";
+}
+.volumeSlider .thumb:hover {
+    -fx-border-color: rgb(153, 181, 230);
+}
+
+.volumeSlider .track {
+    -fx-background-color: #6C7A89;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 1;
+}
+.volumeSlider:muted .thumb {
+    -fx-border-color: #dadada;
+}
+
+.frontVolumeTrack:muted {
+    -fx-background-color: #dadada;
+}
+
+.backVolumeTrack {
+    -fx-background-color: #dadada;
+}
+
+.frontVolumeTrack {
+    -fx-background-color: rgb(52, 109, 207);
+}
+.volumeIcon {
+    -fx-fill: #BFBFBF;
+}
+
+.volumeLabel {
+    -fx-text-fill: #BFBFBF;
+}
+
+.volumeLabel:muted {
+    -fx-text-fill: #dadada;
+}
+
+.volumeIconContainer:hover > .volumeIcon {
+    -fx-fill: rgb(153, 181, 230);
+}
